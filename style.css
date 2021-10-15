@@ -10,6 +10,91 @@ html {
 
 body {
     text-rendering: optimizeLegibility;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+.zbozi {
+    width: 670px;
+    height: 440px;
+    position: relative;
+    left: 10%;
+    top: 30%;
+    margin: 30px 30px 30px 30px;
+    border-radius: 30px;
+    border-color: #f5f5f5;
+    background-image: linear-gradient( #06d7c1, #50cc49);
+    display: inline-block;
+}
+
+.vizual {
+    margin: 30px;
+    color: white;
+    display: block;
+}
+
+.detaily {
+    background-color: white;
+    position: relative;
+    width: 335px;
+    height: 440px;
+    left: 335px;
+    top: -110px;
+    display: block;
+}
+
+.logo {}
+
+.slogan {
+    position: relative;
+    top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bota {
+    position: absolute;
+    left: -90px;
+    top: 150px;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+    top: 220px;
+    left: 180px;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    top: 230px;
+    left: 140px;
+}
+
+.produkt {
+    color: #959595;
+}
+
+.parametr {
+    text-transform: uppercase;
+}
+
+.velikosti {}
+
+.tlacitko {
+    background-color: #f15f42;
+    color: white;
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 365px;
+    border-radius: 30px;
 }
 
 /*
@@ -28,5 +113,3 @@ body {
  KULATE ROHY
  border-radius: 30px;
 */
-
-/* ----- zde zacni psat vlastni css ----- */
